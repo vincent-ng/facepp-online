@@ -1,0 +1,58 @@
+fieldset {
+	border: 0px;
+}
+
+label {
+	font-weight: bold;
+}
+
+#file-reader {
+	width: 60%;
+    margin: auto;
+}
+
+#file-info-list {
+	border: solid 1px gray;
+    padding: 15px;
+	margin: 15px;
+	overflow: auto;
+}
+
+#file-info-list:hover {
+	background-color: lightcyan;
+}
+
+#file-info-list .error {
+	color: lightcoral;
+}
+
+#file-info-data {
+	float: left;
+    clear: both;
+    width: 150px;
+    height: 150px;
+    margin-right: 30px;
+	border: 1px dotted gray;
+	background-color: lightgray;
+}
+
+#file-info-data img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+	display: block;
+}
+
+#file-info-detail {
+	margin-top: 45px;
+}
+
+#result-panel {
+	text-align: center
+}
+
+#operations input[type="button"] {
+	display: block;
+    margin: 10px auto;
+    padding: 5px 20px;
+}

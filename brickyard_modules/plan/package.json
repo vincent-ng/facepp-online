@@ -1,0 +1,9 @@
+{
+  "name": "facepp-online-plan",
+  "brickyard-module-type": "plan",
+  "version": "0.0.1",
+  "description": "plan for facepp-online",
+  "main": "index.js",
+  "author": "brickyard-developer",
+  "license": "ISC"
+}

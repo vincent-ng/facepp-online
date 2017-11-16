@@ -1,0 +1,14 @@
+<%
+	_.forEach(files, function(e) {
+%>
+		<div id="file-info-list">
+			<div id="file-info-data"><img src="${e.data}"></div>
+			<div id="file-info-detail">
+				<div id="file-info-name"><label>Name: </label><span>${e.file.name}</span></div>
+				<div id="file-info-size"><label>Size: </label><span>${e.file.size} Bytes</span><span class="error">${e.exceedMaxSize?' (Too Big)':''}</span></div>
+				<div id="file-info-type"><label>Type: </label><span>${e.file.type||'Unknow'}</span></div>
+			</div>
+		</div>
+<%
+	})
+%>
